@@ -108,7 +108,7 @@ let valorFinal2;
     }
 }
     if (primeiraSubtracao < 42){
-        valorFinal2 = (primeiraSubtracao + tentativas);
+        valorFinal2 = (parseInt(primeiraSubtracao) + parseInt(tentativas);
         console.log(`Número de tentativas foi ${tentativas}`);
         console.log(`Situação em que valor < 42. O valor da adição é ${valorFinal2}`);
         console.log(valorFinal2);
